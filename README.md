@@ -1,6 +1,20 @@
-# Group Project Webpage
+# Group 2 - Simple Project Webpage
 
 This project is a sample webpage created using React and Vite, showcasing a team of developers with individual profile pages.
+
+## Reasons for Using React
+
+1. **Component-Based Architecture**: React allows developers to build encapsulated components that manage their own state. This makes it easier to reuse code and manage complex UIs.
+
+2. **Virtual DOM**: React uses a virtual DOM to optimize rendering. This means that updates to the UI are efficient and fast, as React only re-renders components that have changed.
+
+3. **Declarative UI**: React's declarative approach makes it easier to understand how the UI should look at any given point in time. This leads to more predictable and easier-to-debug code.
+
+4. **Ecosystem and Community**: React has a large ecosystem of libraries and tools, making it easier to find solutions and support for various challenges. The community is active and continuously contributes to its growth.
+
+5. **State Management**: React provides built-in hooks like `useState` and `useEffect` for managing state and side effects, making it easier to handle dynamic data in applications.
+
+6. **SEO Friendly**: With the help of frameworks like Next.js, React applications can be made SEO-friendly, which is crucial for web applications.
 
 ## Project Structure
 
