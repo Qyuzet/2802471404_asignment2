@@ -1,4 +1,5 @@
 # Group 2 - Simple Project Webpage
+ACCESS LINK : https://2802471404-asignment2.vercel.app/
 
 This project is a sample webpage created using React and Vite, showcasing a team of developers with individual profile pages.
 
