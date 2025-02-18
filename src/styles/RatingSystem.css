@@ -1,0 +1,71 @@
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  justify-content: center;
+}
+
+.stars-container {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.star-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.2s ease;
+}
+
+.star-btn:hover {
+  transform: scale(1.2);
+}
+
+.star {
+  font-size: 1.5rem;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.star-btn.active .star {
+  color: #ffd700;
+  animation: starPop 0.3s ease;
+}
+
+.rating-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+@keyframes starPop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Hover effect for the stars */
+.star-btn:hover .star,
+.star-btn:focus .star {
+  color: #ffd700;
+}
+
+/* Keep the stars colored up to the hovered position */
+.star-btn:hover ~ .star-btn .star {
+  color: #ccc;
+}
+
+/* Accessibility */
+.star-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.3);
+  border-radius: 50%;
+}
