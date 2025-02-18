@@ -22,13 +22,13 @@ const Navbar = () => {
       </div>
 
       <div className={`nav-menu ${isOpen ? "active" : ""}`}>
-        <a href="#home" className="nav-item">
+        <a href="/" className="nav-item">
           Home
         </a>
-        <a href="#profiles" className="nav-item">
+        <a href="#team-section" className="nav-item">
           Team Profiles
         </a>
-        <a href="#about" className="nav-item">
+        <a href="#about-section" className="nav-item">
           About
         </a>
       </div>

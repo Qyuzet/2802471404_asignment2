@@ -38,7 +38,7 @@ const Homepage = () => {
         </p>
       </section>
 
-      <section className="team-section">
+      <section className="team-section" id="team-section">
         <h2 className="section-title">Meet Our Team</h2>
         <div className="team-grid">
           {teamMembers.map((member) => (
@@ -62,7 +62,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section className="about-section">
+      <section className="about-section" id="about-section">
         <h2 className="section-title">About Our Project</h2>
         <p className="about-text">
           We are a team of passionate developers working together to create
