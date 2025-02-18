@@ -45,6 +45,7 @@
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .team-card {
@@ -54,6 +55,8 @@
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  flex: 1 1 calc(25% - 2rem); /* Responsive card width */
+  min-width: 250px; /* Minimum width for cards */
 }
 
 .team-card:hover {
@@ -128,5 +131,19 @@
 
   .section-title {
     font-size: 2rem;
+  }
+
+  .team-card {
+    flex: 1 1 calc(50% - 2rem); /* Two cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .team-card {
+    flex: 1 1 100%; /* One card per row on very small screens */
+  }
+
+  .team-section {
+    padding: 2rem 1rem; /* Adjust padding for smaller screens */
   }
 }
