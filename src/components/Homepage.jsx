@@ -5,25 +5,25 @@ const Homepage = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Team Member 1",
+      name: "RIKI AWAL SYAHPUTRA",
       role: "Frontend Developer",
       image: "rik.jpg",
     },
     {
       id: 2,
-      name: "Team Member 2",
+      name: "MARCELLINUS GANESIA L.",
       role: "Backend Developer",
       image: "marcel.jpg",
     },
     {
       id: 3,
-      name: "Team Member 3",
+      name: "MICHAEL LEE KOESUMO",
       role: "UI/UX Designer",
       image: "mike.jpg",
     },
     {
       id: 4,
-      name: "Team Member 4",
+      name: "FARZAN FIRDOUS",
       role: "Full Stack Developer",
       image: "farzan.jpg",
     },
